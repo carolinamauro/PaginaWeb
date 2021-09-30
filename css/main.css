@@ -1,0 +1,472 @@
+
+/* fuente toda la pagina*/
+.body{
+	font-family: "futura light", Sans-serif;
+	margin: 0;
+}
+
+/* fondo del header*/
+.header{
+	background-image: url(../imagenes/portada9.png);
+	height: 40vh;
+
+}
+
+.logo {
+	width: 60px;
+	align-content: center;
+	
+}
+
+/* slogan en el header:  arte a expresar*/
+.portada__slogan{
+	font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    color: black;
+    text-align: right;
+    margin: 0 160px 0 300px;
+}
+/*
+.portada__slogan--arte{
+	margin-top: 150px ;
+}*/
+
+.portada__galeria {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1100px;
+	align-content: center;
+}
+
+#sobremi{
+	margin-top: 20px;
+	color: #54595f;
+    display: grid;
+    grid-template-areas: 
+    "imagen titulo"
+    "imagen detalle";
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 100px auto;
+    height: 600px;
+}
+
+.sobremi__imagen {
+	margin: 30px; 
+	grid-area: imagen;
+	overflow: hidden;
+	width: 927px;
+}
+
+.sobremi__imagen--flex{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	float: left;
+	animation: moverContenido 5s;
+}
+
+@keyframes moverContenido {
+    50%{
+		transform: scale(1.5,1.5);
+    }
+    100%{ 
+    	transform: scale(1,1);
+    }
+}
+
+
+
+.sobremi__titulo{
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-weight: 700;
+    grid-area: titulo;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.sobremi__detalle {
+	font-family: 'Besley', serif;
+	font-size: 16px;
+	grid-area: detalle;
+	margin-right: 100px;
+	margin-left: 100px;
+	align-self: center;
+	justify-self: center;
+
+}
+
+/* iconos de los diferentes servicios*/
+
+.icono {
+	display: grid;
+	grid-template-areas: 
+	"item__1 item__imagen item__4"
+	"item__1 item__imagen item__4"
+	"item__2 item__imagen item__4"
+	"item__2 item__imagen item__5"
+	"item__3 item__imagen item__5"
+	"item__3 item__imagen item__5";
+	grid-template-rows: auto auto 1fr 1fr auto auto;
+	grid-template-columns: 25% auto 25%;
+	margin-top: 100px;
+	width: 1400px;
+	align-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+
+}
+
+.item__1{
+	grid-area: item__1;
+}
+
+.item__2{
+	grid-area: item__2;
+}
+.item__3{
+	grid-area: item__3;
+	
+}
+.item__4{
+	grid-area: item__4;
+	
+
+}
+.item__5{
+	grid-area: item__5;
+
+}
+.item__imagen{
+	grid-area: item__imagen;
+	align-content: center;
+	
+}
+
+/* titulo del icono */
+.icono__titulo{
+	font-size: 20px;
+	color: #010101;
+	flex-grow: 2;
+
+}
+
+/* detalle del icono*/
+.icono__detalle{
+	font-size: 15px;
+	color: #555;
+	flex-grow: 2;
+
+}
+
+.icono__imagen{
+	width: 100px;
+}
+
+
+
+/* registrarme, index.html al final*/ 
+#registro{
+	font-family: 'Roboto Mono', monospace;
+	font-weight: lighter;
+	display: grid;
+	grid-template-columns: 30% auto;
+	grid-template-rows: 30% 1fr 1fr auto;
+	grid-template-areas: 
+	"detalle titulo"
+	"detalle cuenta"
+	"detalle cuenta"
+	"detalle cuenta";
+	height: 400px;
+	
+}
+
+/*registrarme. titulo */ 
+.registro__titulo{
+	font-size: 40px;
+	color: #63a8c7;
+	text-transform: uppercase;
+	grid-area: titulo;
+}
+
+.registro__imagen {
+	width: 400px;
+	grid-area: detalle;
+	margin-left: 50px;
+	border-radius: 20px;
+}
+
+.registro__detalle{
+	background-color: #e2f1f6;
+	width: 600px;
+	grid-area: detalle;
+	margin-left: 50px;
+	border-radius: 20px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+
+}
+
+.registro__cuenta {
+	grid-area: cuenta;
+}
+
+
+.cursos{
+	font-family: 'IBM Plex Sans Arabic', sans-serif; /*horribe cambiar*/
+}
+
+.cursos__titulo{
+	color: #555555;
+}
+
+.cursos__detalle{
+	color: #555;
+	line-height: 20px;
+}
+
+/*Menu*/ 
+
+ul {
+	list-style: none;
+	padding: 0;
+	font-family: 'Quicksand', sans-serif;
+	margin-top: 0;
+}
+.nav {
+	width: 1170px;
+	align-content: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+li{
+	display: inline-block;
+	width: 12%;
+	position: relative;
+
+}
+
+a{
+	display: block;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 20px 10px 10px 10px;
+	font-weight: bolder;
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	color: black;
+	
+}
+
+a:hover {
+	font-weight: bold;
+	color: #3B8282;
+}
+
+ul ul {
+	position: absolute;
+	display: none;
+}
+
+ul ul li {
+	width: 100%;
+}
+
+ul li:hover ul {
+	display: block;
+}
+
+ul li:hover ul a:hover{
+	font-weight: bold;
+
+}
+
+/*termina menu */
+
+
+
+.eventos__titulo {
+	font-family: 'Raleway', sans-serif;
+	color: #333;
+	text-transform: uppercase;
+	font-size: 40px;
+}
+
+.eventos__detalle{
+	background-color: #F5F5DC;
+
+}
+
+/* footer geneal */
+
+.footer {
+	font-size: 20px;
+	text-align: center;
+	background-image: url(../imagenes/fondo.png);
+	height: 200px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+	
+}
+
+/*loreleymakeup*/ 
+.footer__apodo {
+	font-family: 'Work Sans', sans-serif;
+	/*flex-grow: 2;*/
+	justify-self: center;
+}
+
+/* mandar mail */
+.footer__mail {
+	color: black;
+	display: inline;
+	text-transform: lowercase;
+}
+
+
+/*iconos imagens (instagram)*/
+.footer__imagen {
+	width: 40px;
+	display: inline;
+	align-content: center;
+
+}
+
+/*contacto*/
+.footer__contacto {
+	font-family: 'Quicksand', sans-serif;
+	margin-right: 10px;
+    
+}
+
+.footer__contacto--detalle {
+	margin-top: 0px;
+    margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+/*pagina de servicios*/
+.pag {
+	color: #54595f;
+	font-family: 'Alata', sans-serif;
+	margin-left: 15%;
+	margin-right: 15%;
+	background-image:linear-gradient( rgba(202, 240, 248, 0.1),  rgba(192, 237, 247, 0.2)),
+	url(../imagenes/axiom-pattern.png);
+
+	 
+}
+.pag__titulo {
+	text-transform: uppercase;
+	font-size: 50px;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.pag__detalle {
+	font-size: 30px;
+	font-weight: lighter;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.pag__subtitulo {
+	font-size: 3em;
+	color: #63a8c7;
+	margin-bottom: 0;
+
+}
+
+
+.pag__descripcion {
+	font-size: 1.5em;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.pag__imagen {
+	opacity: 90%;
+	padding-top: 40px;
+	padding-right: 40px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	width: 450px;
+	
+}
+
+.galeria {
+	display: grid;
+	margin: 50px;
+	grid-template-columns: 40% auto ;
+	grid-template-rows: 1fr 1fr auto auto;
+	grid-template-areas: 
+	"titulo galeria1"
+	"detalle galeria1"
+	"galeria3 galeria2"
+	"galeria4 galeria2";
+
+}
+.galeria__titulo{
+	grid-area: titulo;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	font-size: 50px;
+	text-align: center;
+
+
+}
+.galeria__detalle{
+	grid-area: detalle;
+	font-family: 'Besley', serif;
+}
+.galeria_item1 {
+	grid-area: galeria1;
+	margin-bottom: 20px;
+
+}
+.galeria_item2 {
+	grid-area: galeria2;
+	width: 90%;
+}
+.galeria_item3 {
+	grid-area: galeria3;
+
+}
+.galeria_item4 {
+	grid-area: galeria4;
+	width: 90%;
+
+}
+
+
+
+
+
+/* auxiliar */
+
+/*linear-gradient(to right, rgba(202, 240, 248, 0.3),  rgba(192, 237, 247, 0.3),rgba(181, 234, 245, 0.4),rgba(170, 231, 244, 0.4),rgba(159, 228, 242, 0.3),rgba(144, 224, 239, 0.2),rgba(131, 204, 217, 0.1)),*/
+
+/*
+.registo__nombre {
+	grid-area: nombre;
+}
+
+.registo__apellido{
+	grid-area: apellido;
+}
+
+.registo__mail{
+	grid-area: mail;
+}
+
+.registo__contra {
+	grid-area: contra;
+}*/
+
