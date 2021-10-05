@@ -12,24 +12,15 @@
 
 }
 
-.logo {
-	width: 60px;
-	align-content: center;
-	
-}
 
 /* slogan en el header:  arte a expresar*/
 .portada__slogan{
 	font-family: 'Quicksand', sans-serif;
-    font-size: 30px;
+    font-size: 1.8em;
     color: black;
     text-align: right;
     margin: 0 160px 0 300px;
 }
-/*
-.portada__slogan--arte{
-	margin-top: 150px ;
-}*/
 
 .portada__galeria {
 	margin-left: auto;
@@ -77,7 +68,7 @@
 
 
 .sobremi__titulo{
-    font-size: 30px;
+    font-size: 1.8em;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     font-weight: 700;
@@ -89,7 +80,7 @@
 
 .sobremi__detalle {
 	font-family: 'Besley', serif;
-	font-size: 16px;
+	font-size: 0.96em;
 	grid-area: detalle;
 	margin-right: 100px;
 	margin-left: 100px;
@@ -148,7 +139,7 @@
 
 /* titulo del icono */
 .icono__titulo{
-	font-size: 20px;
+	font-size: 1.2em;
 	color: #010101;
 	flex-grow: 2;
 
@@ -156,7 +147,7 @@
 
 /* detalle del icono*/
 .icono__detalle{
-	font-size: 15px;
+	font-size: 0.9em;
 	color: #555;
 	flex-grow: 2;
 
@@ -186,7 +177,7 @@
 
 /*registrarme. titulo */ 
 .registro__titulo{
-	font-size: 40px;
+	font-size: 2.4em;
 	color: #63a8c7;
 	text-transform: uppercase;
 	grid-area: titulo;
@@ -196,7 +187,6 @@
 	width: 400px;
 	grid-area: detalle;
 	margin-left: 50px;
-	border-radius: 20px;
 }
 
 .registro__detalle{
@@ -204,9 +194,8 @@
 	width: 600px;
 	grid-area: detalle;
 	margin-left: 50px;
-	border-radius: 20px;
 	font-family: 'Raleway', sans-serif;
-	font-size: 16px;
+	font-size: 0.96em;
 
 }
 
@@ -292,7 +281,7 @@ ul li:hover ul a:hover{
 	font-family: 'Raleway', sans-serif;
 	color: #333;
 	text-transform: uppercase;
-	font-size: 40px;
+	font-size: 2.4em;
 }
 
 .eventos__detalle{
@@ -303,7 +292,7 @@ ul li:hover ul a:hover{
 /* footer geneal */
 
 .footer {
-	font-size: 20px;
+	font-size: 1.2em;
 	text-align: center;
 	background-image: url(../imagenes/fondo.png);
 	height: 200px;
@@ -357,20 +346,20 @@ ul li:hover ul a:hover{
 	font-family: 'Alata', sans-serif;
 	margin-left: 15%;
 	margin-right: 15%;
-	background-image:linear-gradient( rgba(202, 240, 248, 0.1),  rgba(192, 237, 247, 0.2)),
+	background-image:/*linear-gradient( rgba(202, 240, 248, 0.1),  rgba(192, 237, 247, 0.2)),*/
 	url(../imagenes/axiom-pattern.png);
 
 	 
 }
 .pag__titulo {
 	text-transform: uppercase;
-	font-size: 50px;
+	font-size: 3em;
 	text-align: center;
 	margin-bottom: 0;
 }
 
 .pag__detalle {
-	font-size: 30px;
+	font-size: 1.8em;
 	font-weight: lighter;
 	text-align: center;
 	margin-top: 0;
@@ -417,7 +406,7 @@ ul li:hover ul a:hover{
 	grid-area: titulo;
 	font-family: 'Raleway', sans-serif;
 	text-transform: uppercase;
-	font-size: 50px;
+	font-size: 3em;
 	text-align: center;
 
 
