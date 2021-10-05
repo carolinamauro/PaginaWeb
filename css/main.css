@@ -289,56 +289,7 @@ ul li:hover ul a:hover{
 
 }
 
-/* footer geneal */
 
-.footer {
-	font-size: 1.2em;
-	text-align: center;
-	background-image: url(../imagenes/fondo.png);
-	height: 200px;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	flex-wrap: wrap;
-	align-items: center;
-	
-}
-
-/*loreleymakeup*/ 
-.footer__apodo {
-	font-family: 'Work Sans', sans-serif;
-	/*flex-grow: 2;*/
-	justify-self: center;
-}
-
-/* mandar mail */
-.footer__mail {
-	color: black;
-	display: inline;
-	text-transform: lowercase;
-}
-
-
-/*iconos imagens (instagram)*/
-.footer__imagen {
-	width: 40px;
-	display: inline;
-	align-content: center;
-
-}
-
-/*contacto*/
-.footer__contacto {
-	font-family: 'Quicksand', sans-serif;
-	margin-right: 10px;
-    
-}
-
-.footer__contacto--detalle {
-	margin-top: 0px;
-    margin-bottom: 0px;
-	margin-left: 0px;
-}
 
 /*pagina de servicios*/
 .pag {
@@ -435,6 +386,42 @@ ul li:hover ul a:hover{
 }
 
 
+
+/* INICIO FOOTER */
+
+footer{
+	height: 150px;
+	line-height: 85px;
+	background-image: url(../imagenes/fondo.png);
+}
+
+
+
+.copyright{
+	float: left;
+	font-size: 1em;
+	font-weight: 400;
+	letter-spacing: 1.5px;
+	margin-bottom: 0px;
+}
+
+
+.social-links li{
+	display: inline-block;
+	margin-left: 20px;
+	float: right;
+}
+
+.social-links li a{
+	color: #000;
+	font-size: 1em;
+}
+
+.social-links li a:hover{
+	color: #009fff;
+}
+
+/* FIN FOOTER */
 
 
 
