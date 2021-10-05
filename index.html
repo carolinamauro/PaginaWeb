@@ -15,12 +15,17 @@
 	<link href="https://fonts.googleapis.com/css2?family=Besley&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+	<link href="http://fonts.googleapis.com/css?family=Playfair+Display:900" rel="stylesheet" type="text/css" />
+	<link href="http://fonts.googleapis.com/css?family=Alice:400,700" rel="stylesheet" type="text/css" />
+
 
 	<!-- Bootstrap -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"> 
+	
 
 	<!-- CSS interno -->
 	<link rel="stylesheet" type="text/css" href="css/main.css"> 
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
 
 </head>
 <body class="body">
@@ -131,38 +136,54 @@
 	 
 		</div>
 
-		<section id="registro">
-			<img class="registro__imagen" src="imagenes/registro.png">	
-			<!-- <p class="registro__detalle"> EL maquillaje ................ </p>	-->	
-			<h3 class="registro__titulo"> Registrate </h3>
-			
-			<form action="" method="POST" class="registro__cuenta">
-				<label for="nombre" class="registo__nombre"> 
-					<span> Nombre </span>
-					<input type="text" name="nombre" placeholder="ingresa tu nombre">
-				</label>
+		<div id="registro" class="conteiner">
+			<div class="section-center">
+				<div class="container">
+					<div class="row">
+						<div class="registro-form">
+							<div class="registro-bg">
+								<div class="form-header">
+									<h2> Registrate</h2>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate laboriosam numquam at</p>
+								</div>
+							</div>
+							<form>
+								<div class="row">
+									<div class="col-md-6">
+										<div class="form-group">
+											<span class="form-label"> Nombre </span>
+											<input id="fname" name="name" type="text" placeholder="First Name" class="form-control">
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											<span class="form-label"> Apellido </span>
+											<input id="lname" name="name" type="text" placeholder="Last Name" class="form-control">
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-12">
+										<div class="form-group">
+											<span class="form-label"> Mail </span>
+											<input id="email" name="email" type="text" placeholder="Email Address" class="form-control">
+										</div>
+									</div>
+								</div>
+								<div class="form-group">
+									<span class="form-label"> Contraseña </span>
+									<input id="contasenia" name="contraseña" placeholder="Password" type="password" class="form-control">
+								</div>
+								<div class="form-btn">
+									<button class="submit-btn"> Registarse </button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-				<label for="apellido" class="registo__apellido">
-					<span> Apellido </span>
-					<input type="text" name="apellido" placeholder="ingresa tu apellido">
-				</label>
-
-				<label for="mail" class="registo__mail"> </br>
-					<span> Mail </span>
-					<input type="Email" name="mail" placeholder="mail@example.com">
-				</label>
-
-				<label for="contraseña" class="registo__nombre"> </br>
-					<span> Contraseña </span> 
-					<input type="password" name="contraseña">
-				</label> </br>
-
-				<input type="submit" value="Enviar">
-
-			</form>
-		
-
-		</section>
 	</main>
 
 	<footer>

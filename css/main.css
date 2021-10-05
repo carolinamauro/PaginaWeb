@@ -129,6 +129,7 @@ time, mark, audio, video {
 	margin-left: auto;
 	margin-right: auto;
 	height: auto;
+	margin-bottom: 50px;
 
 }
 
@@ -177,53 +178,6 @@ time, mark, audio, video {
 .icono__imagen{
 	width: 100px;
 }
-
-
-
-/* registrarme, index.html al final*/ 
-#registro{
-	font-family: 'Roboto Mono', monospace;
-	font-weight: lighter;
-	display: grid;
-	grid-template-columns: 30% auto;
-	grid-template-rows: 30% 1fr 1fr auto;
-	grid-template-areas: 
-	"detalle titulo"
-	"detalle cuenta"
-	"detalle cuenta"
-	"detalle cuenta";
-	height: 400px;
-	
-}
-
-/*registrarme. titulo */ 
-.registro__titulo{
-	font-size: 2.4em;
-	color: #63a8c7;
-	text-transform: uppercase;
-	grid-area: titulo;
-}
-
-.registro__imagen {
-	width: 400px;
-	grid-area: detalle;
-	margin-left: 50px;
-}
-
-.registro__detalle{
-	background-color: #e2f1f6;
-	width: 600px;
-	grid-area: detalle;
-	margin-left: 50px;
-	font-family: 'Raleway', sans-serif;
-	font-size: 0.96em;
-
-}
-
-.registro__cuenta {
-	grid-area: cuenta;
-}
-
 
 .cursos{
 	font-family: 'IBM Plex Sans Arabic', sans-serif; /*horribe cambiar*/
@@ -414,10 +368,7 @@ ul li:hover ul a:hover{
 footer{
 	height: 150px;
 	line-height: 85px;
-	background-image: url(../imagenes/fondo.png);
 }
-
-
 
 .copyright{
 	float: left;
@@ -426,7 +377,6 @@ footer{
 	letter-spacing: 1.5px;
 	margin-bottom: 0px;
 }
-
 
 .social-links li{
 	display: inline-block;
@@ -445,26 +395,4 @@ footer{
 
 /* FIN FOOTER */
 
-
-
-/* auxiliar */
-
-/*linear-gradient(to right, rgba(202, 240, 248, 0.3),  rgba(192, 237, 247, 0.3),rgba(181, 234, 245, 0.4),rgba(170, 231, 244, 0.4),rgba(159, 228, 242, 0.3),rgba(144, 224, 239, 0.2),rgba(131, 204, 217, 0.1)),*/
-
-/*
-.registo__nombre {
-	grid-area: nombre;
-}
-
-.registo__apellido{
-	grid-area: apellido;
-}
-
-.registo__mail{
-	grid-area: mail;
-}
-
-.registo__contra {
-	grid-area: contra;
-}*/
 
