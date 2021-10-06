@@ -30,9 +30,9 @@ time, mark, audio, video {
 .header{
 	background-image: url(../imagenes/portada9.png);
 	height: 40vh;
+	margin-bottom: 20px;
 
 }
-
 
 /* slogan en el header:  arte a expresar*/
 .portada__slogan{
@@ -50,8 +50,11 @@ time, mark, audio, video {
 	align-content: center;
 }
 
+.carousel-inner{
+	height: 620px;
+}
+
 #sobremi{
-	margin-top: 20px;
 	color: #54595f;
     display: grid;
     grid-template-areas: 
@@ -60,33 +63,8 @@ time, mark, audio, video {
     grid-template-columns: auto 1fr;
     grid-template-rows: 100px auto;
     height: 600px;
+
 }
-
-.sobremi__imagen {
-	margin: 30px; 
-	grid-area: imagen;
-	overflow: hidden;
-	width: 927px;
-}
-
-.sobremi__imagen--flex{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	float: left;
-	animation: moverContenido 5s;
-}
-
-@keyframes moverContenido {
-    50%{
-		transform: scale(1.5,1.5);
-    }
-    100%{ 
-    	transform: scale(1,1);
-    }
-}
-
-
 
 .sobremi__titulo{
     font-size: 1.8em;
