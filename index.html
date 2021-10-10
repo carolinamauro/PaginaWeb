@@ -25,62 +25,64 @@
 
 	<!-- CSS interno -->
 	<link rel="stylesheet" type="text/css" href="css/main.css"> 
+	<link rel="stylesheet" type="text/css" href="css/style.css"> 
 
 </head>
 <body class="body">
 
 	<header class="header"> 	
+
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+          <a class="navbar-brand" href="#!"> LoreleyMakeup</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          	<ul class="navbar-nav ms-auto mb-2 mb-lg-0 preferencias">
+	          	<li class="nav-item"> <a class="nav-link" href="paginas/clases.html"> Clases </a>
+								<ul> 
+									<li class="item"> <a href="paginas/clases.html#presenciales"> Presenciales </a> </li> 
+									<li class="item"> <a href="paginas/clases.html#virtuales"> Virtuales </a> </li> 
+								</ul>
+							</li>
+							<li class="nav-item" > <a class="nav-link" href="paginas/eventos.html"> Eventos </a>
+								<ul> 
+									<li class="item"> <a href="paginas/eventos.html#fiesta"> Fiesta </a></li> 
+									<li class="item"> <a href="paginas/eventos.html#novias"> Novias </a></li>
+								</ul>
+							</li> 
+							<li class="nav-item" > <a class="nav-link" href="paginas/servicios.html"> Servicios </a> 
+								<ul> 
+									<li class="item"> <a href="paginas/servicios.html#pestañas">  Lifting de pestañas </a> </li>
+									<li class="item"> <a href="paginas/servicios.html#cejas"> Perfilado de cejas </a> </li>	
+									<li class="item"> <a href="paginas/servicios.html#peinados"> Peinados </a> </li>
+								</ul>
+							</li>
+							<li class="nav-item"> <a class="nav-link" href="paginas/maquillaje.html"> Maquillaje </a> 
+								<ul>
+									<li class="item"> <a href="paginas/maquillaje.html#social"> Social </a></li>
+									<li class="item"> <a href="paginas/maquillaje.html#editorial"> Editorial </a></li>
+									<li class="item"> <a href="paginas/maquillaje.html#producciones"> Producciones </a></li>
+								</ul>
+							</li>
+
+          	</ul>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#sobremi"> Sobre Mi </a></li>
+              <li class="nav-item"><a class="nav-link" href="#contactarme">Contacto </a></li>
+              <li class="nav-item"> <a class="nav-link" href="paginas/galeria.html"> Galeria </a> </li>
+            </ul>
+          </div>
+      </div>
+     </nav>
 		
-		<nav class="conteiner">
-			<ul class="nav justify-content-center nav-pills nav-fill" >
-				<li > <a href="paginas/clases.html"> Clases </a>
-					<ul> 
-						<li> <a href="paginas/clases.html#presenciales"> Presenciales </a> </li> 
-						<li> <a href="paginas/clases.html#virtuales"> Virtuales </a> </li> 
-					</ul>
-				</li>
-
-				<li > <a href="paginas/eventos.html"> Eventos </a>
-					<ul> 
-						<li> <a href="paginas/eventos.html#fiesta"> Fiesta </a></li> 
-						<li> <a href="paginas/eventos.html#novias"> Novias </a></li>
-					</ul>
-				</li> 
-				<li > <a href="paginas/servicios.html"> Servicios </a> 
-					<ul> 
-						<li> <a href="paginas/servicios.html#pestañas">  Lifting de pestañas </a> </li>
-						<li> <a href="paginas/servicios.html#cejas"> Perfilado de cejas </a> </li>	
-						<li> <a href="paginas/servicios.html#peinados"> Peinados </a> </li>
-					</ul>
-				</li>
-				<li > <a href="paginas/maquillaje.html"> Maquillaje </a> 
-					<ul>
-						<li> <a href="paginas/maquillaje.html#social"> Social </a></li>
-						<li> <a href="paginas/maquillaje.html#editorial"> Editorial </a></li>
-						<li> <a href="paginas/maquillaje.html#producciones"> Producciones </a></li>
-					</ul>
-				</li>
-				
-				<li > 
-					<a href="index.html"> Inicio </a>
-				</li>
-
-				<li > <a href="#contactarme"> Contactame </a> </li>	 
-				<li > <a href="#sobremi"> Sobre mi </a></li>
-				<li > <a href="paginas/ingresar.html"> Ingresar </a> </li>
-			</ul>
-		</nav>
-		
-
 		<div class="portada">			
-			<a href="paginas/galeria.html" class="portada__galeria"> Galeria </a>
-			<div>
 				<h4 class="portada__slogan portada__slogan--arte"> ARTE </h4>
 				<h4 class="portada__slogan">  A EXPRESAR  </h4> 
-			</div>
-			
-		</div>	
-			
+		</div>
+	
 	</header>
 
 	<main>
@@ -108,22 +110,10 @@
 				</div>
 			</div>
 		</div>
-		<!--<section id="sobremi" >
-			<aside class="sobremi__imagen">
-				<section >
-					<img class="sobremi__imagen--flex" src="imagenes/sobremi2.png">
-				</section>
-			</aside>
-			
-			<h1 class="sobremi__titulo"> SOBRE MI </h1>
-			<p class="sobremi__detalle"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
-			</p>
-			
-		</section> -->
+	
 
 		<div class="icono">
 
-			<!-- La idea es que haya un icono en ese boton que represente al servicio y te lleve a la pagina relacionada al mismo -->
 			<section class="item__1">
 				<h4 class="icono__titulo"> <a href="servicios.html#cejas"> Perfilado de cejas </a> </h4>
 				<img src="imagenes/cejas.jpeg" alt="iconocejas" class="icono__imagen">	
