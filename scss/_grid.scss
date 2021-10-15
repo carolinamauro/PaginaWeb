@@ -1,0 +1,42 @@
+@import "colors";
+@import "fonts";
+$alto: 510px;
+
+.grid-conteiner {
+	display: grid;
+	grid-template-areas:
+	"item1 item2"
+	"item1 item3"
+	"item1 item4";
+	grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px auto;
+	height: $alto;
+	color: black;
+
+}
+
+@mixin item-style($i){
+	@if($i == 1){
+		height: $alto;
+	}
+	@if($i == 2){
+		font-family: $titulos-fonts;
+		font-size: 3em;
+		margin-top: 100px;
+	
+	}
+	@else if($i >= 3) {
+		font-family: $detalle-font;
+		font-size: 5em-$i;
+		margin-top: 100px;
+	}
+}
+
+@for $i from 1 through 4 {
+	.item-#{$i}{
+		grid-area: item#{$i};
+		@include item-style($i);
+		text-align: center;
+	}
+
+}

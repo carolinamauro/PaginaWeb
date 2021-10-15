@@ -1,0 +1,22 @@
+
+@for $i from 1 through 12 {
+	.col-sm-#{$i}{
+		width: $ancho-del-contenedor-sm /12 * $i;
+	}
+	.col-md-#{$i}{
+		width: $ancho-del-contenedor-md /12 * $i;
+	}
+	.col-lg-#{$i}{
+		width: $ancho-del-contenedor-lg /12 * $i;
+	}
+	.col-xl-#{$i}{
+		width: $ancho-del-contenedor-xl /12 * $i;
+	}
+	.col-xxl-#{$i}{
+		width: $ancho-del-contenedor-xxl /12 * $i;
+	}
+	.col-#{$i}{
+		width: $ancho-del-contenedor /12 * $i;
+	}
+
+}

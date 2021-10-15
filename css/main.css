@@ -21,8 +21,8 @@ time, mark, audio, video {
 
 
 /* fuente toda la pagina*/
-.body{
-	font-family: "futura light", Sans-serif;
+body{
+	font-family: "Besley", Sans-serif;
 	margin: 0;
 }
 
@@ -44,7 +44,7 @@ time, mark, audio, video {
 }
 
 .sobremi__titulo{
-    font-size: 1.8em;
+    font-size: 4em;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     font-weight: 700;
@@ -65,75 +65,6 @@ time, mark, audio, video {
 
 }
 
-/* iconos de los diferentes servicios*/
-
-.icono {
-	display: grid;
-	grid-template-areas: 
-	"item__1 item__imagen item__4"
-	"item__1 item__imagen item__4"
-	"item__2 item__imagen item__4"
-	"item__2 item__imagen item__5"
-	"item__3 item__imagen item__5"
-	"item__3 item__imagen item__5";
-	grid-template-rows: auto auto 1fr 1fr auto auto;
-	grid-template-columns: 25% auto 25%;
-	margin-top: 100px;
-	width: 1400px;
-	align-content: center;
-	margin-left: auto;
-	margin-right: auto;
-	height: auto;
-	margin-bottom: 50px;
-
-}
-
-.item__1{
-	grid-area: item__1;
-}
-
-.item__2{
-	grid-area: item__2;
-}
-.item__3{
-	grid-area: item__3;
-	
-}
-.item__4{
-	grid-area: item__4;
-	
-
-}
-.item__5{
-	grid-area: item__5;
-
-}
-.item__imagen{
-	grid-area: item__imagen;
-	align-content: center;
-	
-}
-
-/* titulo del icono */
-.icono__titulo{
-	font-size: 1.2em;
-	color: #010101;
-	flex-grow: 2;
-
-}
-
-/* detalle del icono*/
-.icono__detalle{
-	font-size: 0.9em;
-	color: #555;
-	flex-grow: 2;
-
-}
-
-.icono__imagen{
-	width: 100px;
-}
-
 .cursos{
 	font-family: 'IBM Plex Sans Arabic', sans-serif; /*horribe cambiar*/
 }
@@ -148,7 +79,7 @@ time, mark, audio, video {
 }
 
 header {
-	font-family: font-family: 'Quicksand', sans-serif;;
+	font-family: font-family: 'Quicksand', sans-serif;
 }
 
 /*INICIO MENÚ*/ 
@@ -156,6 +87,8 @@ header {
 .item {
 	list-style: none;
 	background-color: #1c436e;
+
+
 }
 
 nav {
@@ -190,10 +123,12 @@ ul ul li {
 
 ul li:hover ul {
 	display: block;
+	z-index: 1;
 }
 
 ul li:hover ul a:hover{
 	font-weight: bold;
+	
 
 }
 /* FIN MENÚ */

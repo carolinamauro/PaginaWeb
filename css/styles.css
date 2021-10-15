@@ -7747,7 +7747,7 @@ textarea.form-control-lg {
 .text-black {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important;
-    
+    font-family: font-family: 'Quicksand', sans-serif;;
 }
 
 .text-white {

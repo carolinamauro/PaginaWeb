@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Besley&family=Raleway:ital,wght@1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alice&family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Besley&family=Raleway:ital,wght@1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alice&family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
+.grid-conteiner {
+  display: grid;
+  grid-template-areas: "item1 item2" "item1 item3" "item1 item4";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px 100px auto;
+  height: 510px;
+  color: black; }
+
+.item-1 {
+  grid-area: item1;
+  height: 510px;
+  text-align: center; }
+
+.item-2 {
+  grid-area: item2;
+  font-family: Montserrat, sans-serif;
+  font-size: 3em;
+  margin-top: 100px;
+  text-align: center; }
+
+.item-3 {
+  grid-area: item3;
+  font-family: Besley, serif;
+  font-size: 2em;
+  margin-top: 100px;
+  text-align: center; }
+
+.item-4 {
+  grid-area: item4;
+  font-family: Besley, serif;
+  font-size: 1em;
+  margin-top: 100px;
+  text-align: center; }
+
+body {
+  font-family: Besley, serif; }
+
+.img-section, .img-section--extremo {
+  height: 510px;
+  margin-top: 100px;
+  margin-bottom: 50px; }
+
+.img-section--extremo {
+  margin-left: 100px; }
+
+.img-section--centro {
+  margin-left: 120px;
+  margin-right: 120px; }

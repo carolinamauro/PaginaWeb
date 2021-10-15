@@ -1,0 +1,27 @@
+@import "fonts";
+@import "grid";
+
+
+body{
+	font-family: $detalle-font;
+}
+
+.img-section {
+	height: $alto;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	
+}
+
+.img-section--extremo {
+	@extend .img-section;
+	margin-left: 100px;
+}
+
+.img-section--centro {
+	margin-left: 120px;
+	margin-right: 120px;
+
+}
+
+
