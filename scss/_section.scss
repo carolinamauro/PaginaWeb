@@ -1,0 +1,36 @@
+@import "colors";
+@import "fonts";
+
+@mixin item-style($i){
+	@if($i == 1){
+		font-family: $titulos-fonts;
+		font-size: 3em;
+		text-align: left;
+	}
+	@if ($i == 2){
+		border-top: solid;
+	}
+	@if($i == 3){
+		color: $gris;
+	}
+	@if($i != 1) {
+		font-family: $detalle-font;
+		font-size: 4em-$i;
+		text-align: center;
+
+	}
+}
+
+@for $i from 1 through 3 {
+	.item-#{$i}{
+		@include item-style($i);
+		margin-top: 6%;	
+	}
+
+}
+
+.item-1--modificado {
+	@extend .item-1;
+	font-family: $header-font;
+	text-align: center;
+}

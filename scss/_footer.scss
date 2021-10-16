@@ -1,0 +1,35 @@
+@import "colors";
+@import "fonts";
+@import "section123";
+
+footer {
+	height: 35vh;
+	background-color: $azul;
+
+}
+
+.footer-sec {
+	margin-top: 5%;
+}
+
+.footer-title {
+	@extend .section123-title;
+	text-align: center;
+
+}
+
+.footer-description {
+	font-family: $descripcion-font;
+	font-size: 1em;
+	color: black;
+	text-align: center;
+
+}
+
+.footer-end {
+	border-top: solid;
+	border-width: 1px;
+	margin-top: 2%;
+}
+
+

@@ -1,27 +1,40 @@
 @import "fonts";
-@import "grid";
+@import "section";
+@import "mobile";
+@import "section123";
+@import "footer";
 
 
 body{
 	font-family: $detalle-font;
 }
 
-.img-section {
-	height: $alto;
-	margin-top: 100px;
+.section-img{
+	height: 600px;
+	overflow: hidden;
+	margin-top: 150px;
+}
+
+.margenes {
 	margin-bottom: 50px;
-	
+}
+.button {
+	font-family: $button-font;
+	font-style: italic;
+	background-color: black;
+	color: white;
+	border: hidden;
+	width: 8em;
+	height: 3em;
+	position: relative;
+	margin: -20px -50px; 
+    top:50%; 
+    left:50%;
+    margin-bottom: 5%;
+
 }
 
-.img-section--extremo {
-	@extend .img-section;
-	margin-left: 100px;
+.imagen-sec {
+	height: 520px;
 }
-
-.img-section--centro {
-	margin-left: 120px;
-	margin-right: 120px;
-
-}
-
 

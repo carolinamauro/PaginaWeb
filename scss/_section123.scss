@@ -1,0 +1,23 @@
+@import "fonts";
+@import "colors";
+@import "mobile";
+
+.section123 {
+	margin-top: 3%;
+	text-align: center;
+	height: auto;
+}
+
+.section123-title {
+	font-family: $titulos-fonts;
+	font-size: 1.4em;
+	text-transform: uppercase;
+	margin-top: 3%;
+	margin-bottom: 5%;
+}
+
+.section123-description {
+	color: $gris;
+	font-family: $descripcion-font;
+	font-size: 1.2em;
+}

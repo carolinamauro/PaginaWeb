@@ -1,22 +1,29 @@
+$ancho-del-contenedor-sm: 320px;
+$ancho-del-contenedor-md: 480px;
+$ancho-del-contenedor-lg: 600px;
+$ancho-del-contenedor-xl: 768px;
+$ancho-del-contenedor-xxl: 1024px;
+$ancho-del-contenedor: 1200px;
 
 @for $i from 1 through 12 {
-	.col-sm-#{$i}{
+	.mycol-sm-#{$i}{
 		width: $ancho-del-contenedor-sm /12 * $i;
 	}
-	.col-md-#{$i}{
+	.mycol-md-#{$i}{
 		width: $ancho-del-contenedor-md /12 * $i;
 	}
-	.col-lg-#{$i}{
+	.mycol-lg-#{$i}{
 		width: $ancho-del-contenedor-lg /12 * $i;
 	}
-	.col-xl-#{$i}{
+	.mycol-xl-#{$i}{
 		width: $ancho-del-contenedor-xl /12 * $i;
 	}
-	.col-xxl-#{$i}{
+	.mycol-xxl-#{$i}{
 		width: $ancho-del-contenedor-xxl /12 * $i;
 	}
-	.col-#{$i}{
+	.mycol-#{$i}{
 		width: $ancho-del-contenedor /12 * $i;
 	}
 
 }
+

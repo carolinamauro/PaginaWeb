@@ -17,13 +17,14 @@
 
 	<!-- CSS interno -->
 	<link rel="stylesheet" type="text/css" href="../css/main.css">
-
+	<link rel="stylesheet" type="text/css" href="../css/style.css"> 
+	<link rel="stylesheet" type="text/css" href="../css/prueba.css">
 
 </head>
 <body class="body">
 
-<header class="header"> 	
-	<nav class="navbar navbar-expand-lg navbar-dark">
+	<header class="header"> 	
+		<nav class="navbar navbar-expand-lg navbar-dark">
       	<div class="container">
 	        <a class="navbar-brand" href="index.html"> LoreleyMakeup</a>
 	        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -31,28 +32,28 @@
           	<ul class="navbar-nav ms-auto mb-2 mb-lg-0 preferencias">
 	          	<li class="nav-item"> <a class="nav-link" href="clases.html"> Clases </a>
 					<ul> 
-						<li class="item"> <a href="clases.html#presenciales"> Presenciales </a> </li> 
-						<li class="item"> <a href="clases.html#virtuales"> Virtuales </a> </li> 
+						<li class="item"> <a class="nav-sub" href="clases.html#presenciales"> Presenciales </a> </li> 
+						<li class="item"> <a class="nav-sub" href="clases.html#virtuales"> Virtuales </a> </li> 
 					</ul>
 				</li>
 				<li class="nav-item" > <a class="nav-link" href="eventos.html"> Eventos </a>
 					<ul> 
-						<li class="item"> <a href="eventos.html#fiesta"> Fiesta </a></li> 
-						<li class="item"> <a href="eventos.html#novias"> Novias </a></li>
+						<li class="item"> <a class="nav-sub" href="eventos.html#fiesta"> Fiesta </a></li> 
+						<li class="item"> <a class="nav-sub" href="eventos.html#novias"> Novias </a></li>
 					</ul>
 				</li> 
 				<li class="nav-item" > <a class="nav-link" href="servicios.html"> Servicios </a> 
 					<ul> 
-						<li class="item"> <a href="servicios.html#pestañas">  Lifting de pestañas </a> </li>
-						<li class="item"> <a href="servicios.html#cejas"> Perfilado de cejas </a> </li>	
-						<li class="item"> <a href="servicios.html#peinados"> Peinados </a> </li>
+						<li class="item"> <a class="nav-sub" href="servicios.html#pestañas">  Lifting de pestañas </a> </li>
+						<li class="item"> <a class="nav-sub" href="servicios.html#cejas"> Perfilado de cejas </a> </li>	
+						<li class="item"> <a class="nav-sub" href="servicios.html#peinados"> Peinados </a> </li>
 					</ul>
 				</li>
 				<li class="nav-item"> <a class="nav-link" href="maquillaje.html"> Maquillaje </a> 
 					<ul>
-						<li class="item"> <a href="maquillaje.html#social"> Social </a></li>
-						<li class="item"> <a href="maquillaje.html#editorial"> Editorial </a></li>
-						<li class="item"> <a href="maquillaje.html#producciones"> Producciones </a></li>
+						<li class="item"> <a class="nav-sub" href="maquillaje.html#social"> Social </a></li>
+						<li class="item"> <a class="nav-sub" href="maquillaje.html#editorial"> Editorial </a></li>
+						<li class="item"> <a class="nav-sub" href="maquillaje.html#producciones"> Producciones </a></li>
 					</ul>
 				</li>
 
@@ -62,17 +63,16 @@
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item"><a class="nav-link active" aria-current="page" href="../index.html">Home</a></li>
               <li class="nav-item"><a class="nav-link" href="../index.html#sobremi"> Sobre Mi </a></li>
-              <li class="nav-item"><a class="nav-link" href="../index.html#contactarme">Contacto </a></li>
+              <li class="nav-item"><a class="nav-link" href="#contactarme">Contacto </a></li>
               <li class="nav-item"> <a class="nav-link" href="galeria.html"> Galeria </a> </li>
             </ul>
           </div>
       </div>
     </nav>
  	
-	<div class="text-center my-5">
-    	<img class="img-fluid rounded-circle mb-4" src="../imagenes/portada7.jpeg" />
-               
-    </div>
+		<div class="text-center my-5">
+	    	<img class="img-fluid rounded-circle mb-4" src="../imagenes/portada7.jpeg" />             
+	  </div>
 			
 	
 	</header>
@@ -103,15 +103,28 @@
 
 	
 	<footer>
-		<div class="footer-content">
-			<p class="copyright"> 
-				<span class="fa fa-copyright"></span> Derechos reservados
-			</p>
-			<ul class="social-links" id="contactarme">
-				<li><a href="#"><i class="fab fa-facebook"> </i> Facebook </a></li>
-				<li><a href="mailto: larabroccoli@gmail.com"><i class="far fa-envelope-open"></i> Mail </a></li>
-				<li><a href=https://instagram.com/loreleymakeup_?utm_medium=copy_link><i class="fab fa-instagram"></i> Instagram </a></li>
-			</ul>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 footer-sec">
+					<h2 class="footer-title"> No dudes en contactarme si te interesa trabajar conmigo</h2>
+					<h4 class="section123-description"> Encontrame en Showroomlavie en Avenida Caseros y Agustín ALvares | Don Bosco.</h4> 
+				</div>
+				<div class="col-md-4 footer-sec">
+					<h2 class="footer-title "> Follow me </h2>	
+					<a href=https://instagram.com/loreleymakeup_?utm_medium=copy_link class="footer-description">  Instagram</a>
+					<a href="#" class="footer-description"> Pinterest </a>
+				</div>
+				<div class="col-md-4 footer-sec">
+					<h2 id="contactarme" class="footer-title "> Contacto </h2>
+					<h5 class="footer-description"> 1112345678 </h5>
+					<h4 class="footer-description"> larabroccoli@gmail.com </h4>
+					<h4 class="footer-description"> larabroccoli.com</h4>
+				</div>
+			</div>
+		</div>
+		<div class="container footer-end">
+			<h5 class="footer-description"> loreleymakeup </h5>
+			
 		</div>
 	</footer>
 	
