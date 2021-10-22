@@ -1,0 +1,134 @@
+@import "section";
+@import "section123";
+@import "footer";
+
+/* INICIO RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* FIN RESET */
+
+/*INICIO MENÚ*/ 
+
+.item {
+	list-style: none;
+	background-color: white;
+}
+
+.nav-sub {
+	color: black;
+}
+
+a{
+	display: block;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 20px 10px 10px 10px;
+	font-weight: bolder;
+	text-align: left;
+	font-family: $header-font;
+	
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+ul ul {
+	position: absolute;
+	display: none;
+	z-index: 1;
+}
+
+ul ul li {
+	width: 100%;
+}
+
+ul li:hover ul {
+	display: block;
+}
+
+ul li:hover ul a:hover{
+	font-weight: bold;
+	color: $gris;
+
+}
+/* FIN MENÚ */
+
+body{
+	font-family: $detalle-font;
+}
+
+.carousel-cambio{
+	height: 100vh;
+	position: relative;
+	z-index: -1;
+	opacity: 80%;
+}
+
+.altura-600 {
+	height: 600px ;
+}
+
+.section-img{
+	height: 600px;
+	overflow: hidden;
+	margin-top: 150px;
+}
+
+/* boton Ver Más en página principal */
+
+.button {
+	font-family: $button-font;
+	font-style: italic;
+	background-color: black;
+	color: white;
+	border: hidden;
+	width: 8em;
+	height: 3em;
+	position: relative;
+	margin: -20px -50px; 
+    top:50%; 
+    left:50%;
+    margin-bottom: 5%;
+
+}
+
+.imagen-sec {
+	height: 520px;
+}
+
+.linea {
+	border: solid;
+	color: $gris-claro;
+	border-width: 1px;
+	margin: 3% 20% 3% 20%;
+}
+
+.fondo {
+	transform: rotate(-180deg);
+	position: relative;
+	z-index: -1;
+}
+
+.color-fondo {
+	background-color: $gris-claro2;
+}
+
+
+

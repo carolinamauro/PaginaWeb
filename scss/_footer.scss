@@ -4,7 +4,7 @@
 
 footer {
 	height: 35vh;
-	background-color: $azul;
+	background-color: black;
 
 }
 
@@ -14,6 +14,7 @@ footer {
 
 .footer-title {
 	@extend .section123-title;
+	color: white;
 	text-align: center;
 
 }
@@ -21,7 +22,7 @@ footer {
 .footer-description {
 	font-family: $descripcion-font;
 	font-size: 1em;
-	color: black;
+	color: white;
 	text-align: center;
 
 }
