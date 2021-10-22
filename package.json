@@ -1,7 +1,6 @@
 {
   "name": "miweb",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -20,6 +19,7 @@
   "homepage": "https://github.com/carolinamauro/PaginaWebLara-1#readme",
   "dependencies": {
     "node-sass": "^6.0.1",
-    "nodemon": "^2.0.13"
-  }
+    "nodemon": "^2.0.14"
+  },
+  "description": ""
 }
